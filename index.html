@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>Victoria Glossip | Front End Web Developer</title>
+</head>
+<script src="script.js"></script>
+<body>
+        <div class="logo">
+            <code class="identifier"></code>
+            <img src="images/logo.png" alt="VG monogram">
+        </div>
+
+        <div class="menu-wrap">
+            <input type="checkbox" id="checkbox">
+            <code class="identifier"></code>
+            <nav class="nav-items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox" class="menu-icon">&#9776;</label>
+        </div>
+  
+    <div class="image-container">
+        <img src="images/lake_sil.png" alt="My silouette with a lake background" class="left-image"> 
+        <img src="images/headshot_vg_sil.png" alt="Headshot of me" class="middle-image">
+        <img src="images/beach_sil.png" alt="My silouette with a beach background" class="right-image"> 
+    </div>
+
+    <div class="about">
+        <code class="identifier"></code>
+        <h1>About Me</h1>
+        <p>Victoria is a front-end web developer from North Carolina. Her expertise lies within creating and designing websites. The main languages in her tech-stack are Java, Python, JavaScript, and of course HTML/CSS. She volunteers her free time by planning and teaching web/app development and computer programming lessons to underprivileged youths.</p>
+    </div>
+
+    <div class="portfolio">
+        <code class="identifier"></code>
+        <h1>Portfolio</h1>
+        <div class="slideshow">
+            <img src="images/resume.png" alt="Screenshot of my Resume website" class="slide">
+            <img src="images/sproutngrow.png" alt="Screenshot of my Sprout and Grow website" class="slide">
+            <img src="images/mealplanner.png" alt="Screenshot of my Meal Planner website" class="slide">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <aside class="contact">
+        <code class="identifier"></code>
+        <h1>Contact</h1>
+        <p>Email me!</p>
+        <a href="mailto:vlglossip@hotmail.com">
+            <img id="email" src="images/envelope.png" alt="Envelope clipart"> <!-- Source: Canva -->
+        </a>
+    </aside>
+
+    <div class="c">
+        <code class="identifier"></code>
+        <p>&copy; 2024 Victoria Glossip</p>
+    </div>
+
+    <div class="empty_f"></div>
+
+    <div class="sm">
+        <code class="identifier"></code>
+        <a href="https://www.facebook.com/">
+            <img src="images\Facebook Brand Asset Pack\Logo\Primary Logo\Facebook_Logo_Primary.png" alt="Facebook logo">
+        </a>
+        <a href="https://x.com/i/flow/login?lang=en">
+            <img src="images\X\logo-black.png" alt="Black X logo">
+        </a>
+        <a href="https://www.secure.instagram.com/accounts/login/?next=%2Fproud.mp%2Ffeed%2F&source=profile_feed_tab">
+            <img src="images\01 Static Glyph\03 Black Glyph\Instagram_Glyph_Black.png" alt="Black Instagram logo">
+        </a>
+    </div>
+
+</body>
+</html>
